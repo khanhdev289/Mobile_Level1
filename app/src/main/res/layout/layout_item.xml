@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    android:outlineSpotShadowColor="@color/black"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="ten"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:id="@+id/tvName"
+                android:layout_width="100dp"
+                android:layout_height="30dp" />
+            <TextView
+                android:id="@+id/tvHang"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="hang"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvYear"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="hang"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+            <TextView
+                android:id="@+id/tvPrice"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="hang"
+                android:textColor="#000000"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            >
+            <ImageButton
+                android:layout_marginLeft="10dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:id="@+id/btn_sinhvien_item_delete"
+                android:background="@drawable/baseline_delete_24" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
