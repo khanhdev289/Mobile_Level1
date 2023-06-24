@@ -13,11 +13,14 @@
         android:theme="@style/Theme.Mobile_Level1_khanhnqph30151"
         tools:targetApi="31">
         <activity
-            android:name=".AddItem"
-            android:theme="@style/Theme.AppCompat"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".AddItem"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".HelloScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
