@@ -28,6 +28,7 @@ public class HelloScreen extends AppCompatActivity {
                 startActivity(i);
             }
         };
+        countDownTimer.start();
 
         iv_banner.setOnClickListener(new View.OnClickListener() {
             @Override
